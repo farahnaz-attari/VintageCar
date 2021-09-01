@@ -29,8 +29,10 @@
 .fontstyle{
     font-family: Allison;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: red !important;   
+    text-shadow: 2px 2px #3d3535;
+    
 }
 .fontstyles{
     font-style: italic;
