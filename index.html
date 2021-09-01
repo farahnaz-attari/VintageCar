@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- CSS Link -->
+    <link href="./CSS/styles.css" type="text/css" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+
+    <title>Vintage Car</title>
+  </head>
+  <body>
+    
+    <!-- Navbar start -->
+   
+    <nav class="navbar navbar-expand-lg 
+               navbar-light bg-light" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand fontstyle" href="#">FA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navstyle" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fontstyles" aria-current="page" href="#CarListings">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fontstyles" href="#Enquiries">Enquiries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fontstyles" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar end -->
+
+
+    <!-- Main start -->
+    <main class="container">
+
+        <!-- heade start -->
+        <h1 class="text-center mt-5 h1-style">Vintage cars for hire</h1>
+        <!-- header end -->
+
+        <!-- Car Listing strt -->
+        <section class="container mt-5">
+            <div class="row"> 
+                <h4 class="m-2" id="CarListings"> Car Listings</h4>
+
+                <!-- fisrt car start -->
+               
+              <div class="col my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/photo-1.jfif" class="card-img-top imgstyle" alt="teal-sedan">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Car Type:</strong> Teal Sedan</p>
+                      <p class="card-text"><strong>Doors:</strong> 4</p>
+                      <p class="card-text"><strong>Cylinders:</strong> 4</p>
+                      <p class="card-text"><strong>Mileage:</strong> 195000km</p>
+                    </div>
+                  </div>
+              </div>
+               <!-- first car end -->
+
+               <!-- second car start -->
+               <div class="col my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/photo-2.jfif" class="card-img-top imgstyle" alt="Ford-Mustang">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Car Type:</strong> Ford Mustang</p>
+                        <p class="card-text"><strong>Doors:</strong> 2</p>
+                        <p class="card-text"><strong>Cylinders:</strong> 4</p>
+                        <p class="card-text"><strong>Mileage:</strong> 184000km</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- second car end --> 
+
+              <!-- third car start -->
+              <div class="col my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/photo-3.jfif" class="card-img-top imgstyle" alt="Volkswagen-Golf">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Car Type:</strong> Volkswagen Golf</p>
+                        <p class="card-text"><strong>Doors:</strong> 2</p>
+                        <p class="card-text"><strong>Cylinders:</strong> 4</p>
+                        <p class="card-text"><strong>Mileage:</strong> 160000km</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- third car end -->
+
+              <!-- fourth car start -->
+              <div class="col my-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/photo-4.jfif" class="card-img-top imgstyle" alt="Coupe">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Car Type:</strong>Coupe</p>
+                        <p class="card-text"><strong>Doors:</strong> 2</p>
+                        <p class="card-text"><strong>Cylinders:</strong> 4</p>
+                        <p class="card-text"><strong>Mileage:</strong> 195000km</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- forth car end -->
+
+            </div>
+        </section>
+        <!-- Car listing end -->
+
+
+        <!--Enquiries start  -->
+        <section class="container mt-5">
+
+            <!-- form start -->
+            <form class="formstyle"  id="Enquiries">
+                <fieldset> 
+                    <a href="#nav"><legend class="m-1">Enquire about a car</legend></a>
+                <div class="mb-3 m-2">
+                    <label for="name" class="form-label">Full Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="your full name please">
+                  </div>
+                <div class="mb-3 m-2">
+                  <label for="email1" class="form-label">Email address:</label>
+                  <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" name="email" placeholder="Name@example.com">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <select class="form-select " aria-label="Default select example">
+                    <option selected>Vintage Cars</option>
+                    <option value="1">Vintage Volkswagen Golf</option>
+                    <option value="2">Vintage Ford-Mustang</option>
+                    <option value="3">Vintage Coupe</option>
+                    <option value="4">Teal Sedan</option>
+                  </select>
+                  <div class="form-floating mt-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                  </div>
+                <button type="submit" class="btn btn-primary m-2">Submit</button>
+            </fieldset>
+              </form>
+            <!-- form end -->
+        </section>
+        <!-- Enquiries end -->
+
+        <!--Contact start  -->
+        <section class="container mt-5">
+           <a href="#nav"> <h4 id="Contact">Contact</h4></a>
+            <p><strong>Address:</strong> 9 Shale Street, Olympic Park, Sydney
+                <br>
+                <strong>Phone:</strong> 215355456
+                <br>
+                <strong>Email:</strong>: xxx@xxx.com
+            </p>
+            <!-- map start -->
+             <P>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5675.163950699692!2d151.06455415309193!3d-33.847676442043436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a4b088c5b235%3A0x78f6ce5772203f6e!2sStadium%20Australia!5e0!3m2!1sen!2sau!4v1630469283525!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             </P>
+         <!-- map end -->
+
+        </section>
+        <!-- Conract end -->
+    </main>
+    <!-- Main end -->
+
+    <!-- footer start -->
+    <footer class="continer mt-5 bg-light">
+        
+        <!-- back to to start -->
+
+        <a href="#nav" class="text-end p-5"><p>Back To Top</p></a>
+
+        <!-- back to top end -->
+        <p class="text-center">Copyright © Farahnaz All Rights Reserved 2021</p>
+    </footer>
+    <!-- footer end -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
